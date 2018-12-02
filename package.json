@@ -1,0 +1,15 @@
+{
+  "name": "@waff/v",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kasper Seweryn <casper@wvffle.net>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "html-format": "^1.0.1",
+    "is-plain-object": "^2.0.4",
+    "lodash.flattendeep": "^4.4.0",
+    "parse-sel": "^1.0.0",
+    "self-closing-tags": "^1.0.1"
+  }
+}
