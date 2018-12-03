@@ -22,7 +22,7 @@ const v = (selector = '', attrs = {}, ...children) => {
 
   for (const key of Object.keys(attrs)) {
     if (attrs[key] === undefined) continue
-    attributes.push(`${key}="${attrs[key].replace(/"/g, '\\"')}"`)
+    attributes.push(`${key}="${attrs[key].toString().replace(/"/g, '\\"')}"`)
   }
 
   if (id || attrs.id) {
