@@ -1,7 +1,7 @@
 {
   "name": "@waff/v",
   "description": "Hyperscript like tool to generate html code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "Kasper Seweryn <casper@wvffle.net>",
   "license": "MIT",
