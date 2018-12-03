@@ -7,11 +7,6 @@ browser-split@0.0.1:
   resolved "https://registry.yarnpkg.com/browser-split/-/browser-split-0.0.1.tgz#7b097574f8e3ead606fb4664e64adfdda2981a93"
   integrity sha1-ewl1dPjj6tYG+0Zk5krf3aKYGpM=
 
-html-format@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/html-format/-/html-format-1.0.1.tgz#3f518be1a1123e2d378716aef662c07ed2a0e008"
-  integrity sha512-ePp+h+akaQiLeCGPefWQ4QJXVXhWx4sU4ZxJVFlaY0AeVgh/tnHGTL27ao09JrdEEelXYMAWi4ynKKheck4tdw==
-
 is-plain-object@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"

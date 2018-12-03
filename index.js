@@ -1,5 +1,4 @@
 const parse = require('parse-sel')
-const format = require('html-format')
 const isObject = require('is-plain-object')
 const flatten = require('lodash.flattendeep')
 const selfClosing = require('self-closing-tags').voidElements
@@ -43,14 +42,14 @@ const v = (selector = '', attrs = {}, ...children) => {
   }
 
   if (selfClosing.includes(tagName)) {
-    return format(tag.open)
+    return tag.open
   }
 
   if (children.length) {
-    return format(tag.open + flatten(children).join(' ') + tag.close)
+    return tag.open + flatten(children).join(' ') + tag.close
   }
 
-  return format(tag.open + tag.close)
+  return tag.open + tag.close
 }
 
 module.exports = v
